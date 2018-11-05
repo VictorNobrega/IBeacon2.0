@@ -1,0 +1,36 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Visita Guiada</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+  <ion-list no-lines>
+
+    <ion-icon name="search" *ngIf="!condition"></ion-icon>
+
+    <div *ngIf="condition">
+      <ion-item *ngFor="let beacon of beacons">
+        <ion-grid class="back">
+          <ion-row>
+            <ion-col>Identificador</ion-col>
+            <ion-col col-12 col-sm>{{beacon.uuid}}</ion-col>
+          </ion-row>
+          <hr>
+          <ion-row>
+            <ion-col>Força de sinal</ion-col>
+            <ion-col>{{beacon.rssi}}</ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>Proximidade</ion-col>
+            <ion-col>{{beacon.accuracy}}</ion-col>
+          </ion-row>
+        </ion-grid>
+        <hr>
+      </ion-item>
+    </div>
+
+  </ion-list>
+</ion-content>

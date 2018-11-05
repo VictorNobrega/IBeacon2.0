@@ -1,0 +1,29 @@
+page-registration {
+
+    img {
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+
+    h1 {
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .button {
+        margin: 0 auto;
+        display: block;
+        float: left;
+        width: 10rem;
+    }
+
+    ion-input {
+        border: 1px solid;
+        border-radius: 10px;
+        margin-bottom: 3%;
+        border-color: darkgrey
+    }
+}

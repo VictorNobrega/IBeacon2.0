@@ -1,0 +1,32 @@
+page-main {
+
+    [padding] h1:first-child, [padding] h2:first-child, [padding] h3:first-child, [padding] h4:first-child, [padding] h5:first-child, [padding] h6:first-child {
+        margin-top: 1rem;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    ion-card {
+        max-width: 100%;
+        max-height: 50%;
+    }
+
+    ion-card-title {
+        text-align: center;
+        
+    }
+
+    img {
+        margin-top: .5rem;
+        margin-left: 0.3rem;
+        max-width: 40%;
+        float: left;
+    }
+
+    p {
+        text-align: justify;
+    }
+}

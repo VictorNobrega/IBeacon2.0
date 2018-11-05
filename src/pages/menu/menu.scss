@@ -1,0 +1,39 @@
+page-menu {
+
+    .logo {
+        margin: 0 auto;
+        margin-top: 15%;
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    button {
+        background-color: white;
+    }
+
+    .botao {
+        background-color: white;
+        max-width: 70%;
+        margin-bottom: 3rem;
+    }
+
+    ion-grid {
+        margin-top: 5rem;
+        margin: 0 auto;
+        display: block;
+    }
+
+    ion-row {
+        margin-left: 15%; 
+    }
+    
+
+    ion-icon {
+        margin-left: 10%;
+        font-size: 500%;
+    }
+
+    ion-row {
+        margin-left: 0%;
+    }
+}
